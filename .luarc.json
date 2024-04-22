@@ -1,5 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
-  "diagnostics.disable": ["lowercase-global"],
+  "diagnostics.neededFileStatus": {
+    "lowercase-global": "None",
+    "codestyle-check": "Any"
+  },
+  "format.defaultConfig": { "indent_size": "2" },
   "runtime.special": { "import": "require" }
 }
